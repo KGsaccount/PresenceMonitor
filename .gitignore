@@ -1,0 +1,15 @@
+# Runtime data (biometric and personal data: never commit)
+operators_database/
+operators_history/
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

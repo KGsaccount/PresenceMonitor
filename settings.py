@@ -1,5 +1,3 @@
-import os, pathlib
-import streamlit as st
 import os, datetime, json, sys, pathlib, shutil
 import pandas as pd
 import streamlit as st
@@ -53,7 +51,7 @@ file_db         = 'operators_db.csv'         ## To store user information
 file_history    = 'operators_history.csv'    ## To store operators history information
 
 ## Image formats allowed
-allowed_image_type = ['.png', 'jpg', '.jpeg']
+allowed_image_type = ['.png', '.jpg', '.jpeg']
 ################################################### Defining Function ##############################################
 def initialize_data():
     if os.path.exists(os.path.join(data_path, file_db)):
